@@ -1,0 +1,400 @@
+::-webkit-scrollbar {
+    width: 10px;
+    z-index: 0;
+  }
+  ::-webkit-scrollbar-track {
+    background: #848484;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--text-t-500, #666);
+    border-radius: 5px;
+  }
+/* global */
+.h1-custom{
+    color: var(--text-t-600, #666);
+    font-family: Saira;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; /* 68.75px */
+}
+.h3-custom{
+    color: var(--text-t-600, #666);
+    font-family: Saira;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; /* 68.75px */
+}
+
+.p-custom{
+    color: var(--text-t-500, #848484);
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+.card{
+    height: 18rem;
+    background-color: #3DCC7C;
+    border: none;
+}
+
+.h1-custom-add{
+    color: #f5f5f5;
+}
+
+.h3-custom-add{
+    color: #f5f5f5;
+}
+
+.p-custom-add{
+    color: #f5f5f5;
+}
+
+/* Sign In */
+.bg-image{
+    background-image: url('img/bg-img.png'); /* Replace 'img/bg-img.png' with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.card-signin{
+    background-color: #fafafa;
+    width: 50vw;
+    height: 70vh;
+    border-radius: 10px;
+}
+.img-form{
+    height: 70vh;
+    width: 25.9vw;
+    border-radius: 10px 0px 0px 10px;
+}
+.form-card h1{
+    color: #000;
+    font-family: Saira;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: -1.2px;
+}
+.form-card h5{
+    color: var(--text-t-400, #ADADAD);
+    font-family: Poppins;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.form-group{
+    width: 20vw;
+}
+::placeholder{
+    color: var(--text-t-400, #ADADAD);
+    font-family: Poppins;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.btn-style{
+    width: 18vw;
+    background-color: #3DCC7C;
+    color: var(--text-t-200, #F2F2F2);
+    text-align: center;
+    font-family: Saira;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: -0.6px;
+}
+.btn-style:hover{
+    background-color: #2cac63;
+    color: var(--text-t-200, #F2F2F2);
+}
+.form-card span{
+    color: var(--text-linked, #0A72D3);
+    font-family: Poppins;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.form-card p{
+    color: var(--text-linked, #ADADAD);
+    font-family: Poppins;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #fafafa;
+    z-index: 10;
+}
+.navbar .navbar-collapse .custom-link{
+    color: var(--text-t-400, #cfcfcf);
+    font-family: Saira;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%; /* 28px */
+    letter-spacing: -0.6px;
+}
+.navbar .navbar-collapse .custom-link:hover{
+    color: var(--primary-active, var(--primary-active, #3DCC7C));
+    font-family: Saira;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 28px */
+    letter-spacing: -0.6px;
+}
+.navbar .custom-link.active{
+    color: var(--primary-active, var(--primary-active, #3DCC7C));
+    font-family: Saira;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 28px */
+    letter-spacing: -0.6px;
+}
+.btn-custom{
+    background-color: #3DCC7C;
+    width: 8rem;
+    color: var(--text-t-200, #F2F2F2);
+    font-family: Saira;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+    letter-spacing: -0.6px;
+}
+.btn-custom:hover{
+    background-color: #2cac63;
+    color: var(--text-t-200, #F2F2F2);
+}
+
+/* Hero */
+.hero{
+    background-image: url('img/home/hero-img.png'); /* Replace 'img/bg-img.png' with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+    z-index: 2;
+}
+.hero h1{
+    color: var(--text-t-100, #FFF);
+    font-family: Saira;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+.hero span{
+    color: var(--text-t-100, #3DCC7C);
+    font-family: Saira;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+.hero p{
+    color: var(--text-t-100, #FFF);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; 
+}
+
+/* Highlight */
+.highlight {
+    background-color: #f5f5f5; /* Set a background color if needed */
+    width: 80vw;
+    height: 25vh;
+    z-index: 3;
+    position: relative;
+    margin-top: -10vh;
+    border-radius: 10px;
+    border: 2px solid #cfcfcf;
+}
+
+.line{
+    background-color: #3DCC7C;
+    height: 40px;
+    width: 2px;
+}
+
+.highlight h1{
+    color: var(--text-t-600, #666);
+    text-align: center;
+    font-family: Saira;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: -1.6px;
+}
+.highlight p{
+    color: var(--text-t-500, #848484);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+/* About */
+.about{
+    height: 100vh;
+    padding-top: 6rem;
+}
+
+/* Service */
+.service{
+    height: 50vh;
+}
+
+.card img{
+    filter: brightness(1000%);
+}
+
+/* change */
+.change{
+    height: 80vh;
+}
+
+/* CTA */
+.cta{
+    background-image: url('img/home/CTA-img.png'); /* Replace 'img/bg-img.png' with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    z-index: 2;
+}
+
+/* feedback */
+.feedback{
+    height: 80vh;
+}
+
+.carousel-custom{
+    height: 50vh;
+    background-color: #cfcfcf;
+    border-radius: 10px;
+}
+.container-text{
+    margin: 8rem;
+}
+
+/* Subscribe */
+.subscribe{
+    background-image: url('img/home/Subscribe-img.png'); /* Replace 'img/bg-img.png' with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    z-index: 2;
+}
+
+.btn-style-add{
+    width: 7rem;
+}
+
+/* footer */
+footer{
+    height: 70vh;
+    background-color: #2cac63;
+}
+hr{
+    color: #f5f5f5;
+}
+
+/* copyright */
+.copyright{
+    height: 9vh;
+    background-color: #16723e;
+}
+
+/* hero cycle */
+.hero-cycle{
+    background-image: url('img/Cycle/img-cycle.png'); /* Replace 'img/bg-img.png' with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+/* main cycle */
+.main-cycle{
+    background-image: url('img/Cycle/cycle-form-img.png'); /* Replace 'img/bg-img.png' with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.main-cycle .form-select{
+    height: 6vh;
+    font-size: 0.9rem;
+    color: var(--text-t-600, #666);
+}
+
+/* Saving */
+.hero-saving{
+    background-image: url('img/Saving/hero-saving-img.png'); /* Replace 'img/bg-img.png' with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+.main-saving{
+    background-image: url('img/Saving/recep.png'); /* Replace 'img/bg-img.png' with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.main-saving textarea{
+    height: 40vh;
+}
+
+.information-saving{
+    height: 80vh;
+}
+
+/* Donation */
+.main-donation{
+    background-image: url('img/Donation/hero-donation-img.png'); /* Replace 'img/bg-img.png' with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+}
+
+.main-donation .form-select{
+    height: 6vh;
+    font-size: 0.9rem;
+    color: var(--text-t-600, #666);
+}
+.information-collected{
+    height: 40vh;
+}
+.h1-custom-extend{
+    color: #2cac63;
+}
+.cta-donation{
+    background-image: url('img/Donation/CTA-donation-img.png'); /* Replace 'img/bg-img.png' with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+
+.gallery-donation{
+    height: 100vh;
+    background-color: #14a152;
+}
